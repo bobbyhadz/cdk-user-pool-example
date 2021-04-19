@@ -1,16 +1,11 @@
 # Article name here
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/aws-s3-presigned-url-react)
-`<- Update Link`.
+[bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-cognito-user-pool-example)
 
 ## How to Use
 
 1. Clone the repository
-
-```bash
-git clone git@github.com:bobbyhadz/`REPOSITORY_NAME`.git && cd `REPOSITORY_NAME`
-```
 
 2. Install the dependencies
 
