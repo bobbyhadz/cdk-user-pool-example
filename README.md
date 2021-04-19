@@ -1,4 +1,4 @@
-# Article name here
+# AWS CDK Cognito User Pool Example - Complete Guide
 
 A repository for an article on
 [bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-cognito-user-pool-example)
