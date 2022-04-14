@@ -1,5 +1,5 @@
-import * as cognito from '@aws-cdk/aws-cognito';
-import * as cdk from '@aws-cdk/core';
+import * as cognito from 'aws-cdk-lib/aws-cognito';
+import * as cdk from 'aws-cdk-lib';
 
 export class CdkStarterStack extends cdk.Stack {
   constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
@@ -86,7 +86,7 @@ export class CdkStarterStack extends cdk.Stack {
       })
       .withCustomAttributes(...['country', 'city']);
 
-    // // 👇 User Pool Client
+    // 👇 User Pool Client
     const userPoolClient = new cognito.UserPoolClient(this, 'userpool-client', {
       userPool,
       authFlows: {
